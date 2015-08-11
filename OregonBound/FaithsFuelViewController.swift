@@ -12,6 +12,7 @@ class FaithsFuelViewController: UIViewController {
     
     @IBOutlet weak var faithsFuelContinueButton: UIButton!
     @IBOutlet weak var faithsFuelTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         faithsFuelContinueButton.layer.borderColor = CGColorCreate(CGColorSpaceCreateDeviceRGB(), [0.0, 0.0, 0.0, 1.0])
@@ -23,27 +24,7 @@ class FaithsFuelViewController: UIViewController {
         faithsFuelTextView.text = "There's only one thing you can get here. Fuel! Fuel keeps that car of yours driving. Without it... well... you can't drive!"
         faithsFuelContinueButton.removeFromSuperview()
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

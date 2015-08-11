@@ -11,9 +11,7 @@ import UIKit
 class SarahsSuppliesViewController: UIViewController {
 
     @IBOutlet weak var sarahsSuppliesTextView: UITextView!
-    
     @IBOutlet weak var sarahsSuppliesContinueButton: UIButton!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,23 +24,7 @@ class SarahsSuppliesViewController: UIViewController {
         sarahsSuppliesTextView.text = "Here you can choose between food and clothes. You need food to ward off disease and keep your travelers happy. Clothes also ward off disease by keeping your travelers warm."
         sarahsSuppliesContinueButton.removeFromSuperview()
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

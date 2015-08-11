@@ -33,7 +33,6 @@ class TerrysToolsViewController: UIViewController {
         button.layer.cornerRadius = CGFloat(15)
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         currentBalanceLabel.text = String(format: "Current Balance: $%.2f", roadTripItems.money)
@@ -119,35 +118,12 @@ class TerrysToolsViewController: UIViewController {
         roadTripItems.money = calculation
         currentBalanceLabel.text = String(format: "Current Balance: $%.2f", calculation)
     }
-    
 
     @IBAction func continueButtonTapped(sender: UIButton) {
         terrysToolsTextView.text = "You can choose among three tools: spare tires, all-purpose kits, and backup engines. Spare tires and backup engines are important for crossing water. The all-purpose kit is all-ways useful."
         terrysToolsContinueButton.removeFromSuperview()
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

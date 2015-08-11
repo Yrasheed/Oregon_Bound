@@ -71,9 +71,7 @@ class FirstTownViewController: UIViewController {
     @IBOutlet weak var image2Reflection: UIImageView!
     @IBOutlet weak var image3Reflection: UIImageView!
     @IBOutlet weak var image4Reflection: UIImageView!
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         image1Reflection.image = image1Reflection.image?.imageRotatedByBegrees(180, flip: false)
@@ -87,16 +85,5 @@ class FirstTownViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

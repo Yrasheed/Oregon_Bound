@@ -27,26 +27,6 @@ class AndysAmmunitionViewController: UIViewController {
         andysAmmunitionContinueButton.removeFromSuperview()
     }
     
-    
-    
-    
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
