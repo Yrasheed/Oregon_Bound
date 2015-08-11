@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21365F481B78F3D4001043CE /* TerrysToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21365F471B78F3D4001043CE /* TerrysToolsViewController.swift */; };
+		21365F4A1B78F3EA001043CE /* AndysAmmunitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21365F491B78F3EA001043CE /* AndysAmmunitionViewController.swift */; };
+		21365F4C1B78F4A9001043CE /* FaithsFuelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21365F4B1B78F4A9001043CE /* FaithsFuelViewController.swift */; };
+		21365F4E1B78F4BF001043CE /* SarahsSuppliesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21365F4D1B78F4BF001043CE /* SarahsSuppliesViewController.swift */; };
+		21365F501B790454001043CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21365F4F1B790454001043CE /* Assets.xcassets */; };
+		21A7D1D31B77F95B00B160C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7D1D21B77F95B00B160C5 /* AppDelegate.swift */; };
+		21A7D1D81B77F95B00B160C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A7D1D61B77F95B00B160C5 /* Main.storyboard */; };
+		21A7D1DD1B77F95B00B160C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A7D1DB1B77F95B00B160C5 /* LaunchScreen.storyboard */; };
+		21A7D1E81B77F95B00B160C5 /* OregonBoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7D1E71B77F95B00B160C5 /* OregonBoundTests.swift */; };
+		21A7D1F31B77F95B00B160C5 /* OregonBoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7D1F21B77F95B00B160C5 /* OregonBoundUITests.swift */; };
+		21A7D2011B77F99600B160C5 /* FirstTownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7D2001B77F99600B160C5 /* FirstTownViewController.swift */; };
+		21A7D2031B77F9AA00B160C5 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7D2021B77F9AA00B160C5 /* StartScreenViewController.swift */; };
+		21A7D2051B77FA6400B160C5 /* SetUpTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A7D2041B77FA6400B160C5 /* SetUpTeamViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A7D1E41B77F95B00B160C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A7D1C71B77F95B00B160C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A7D1CE1B77F95B00B160C5;
+			remoteInfo = OregonBound;
+		};
+		21A7D1EF1B77F95B00B160C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21A7D1C71B77F95B00B160C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A7D1CE1B77F95B00B160C5;
+			remoteInfo = OregonBound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21365F471B78F3D4001043CE /* TerrysToolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerrysToolsViewController.swift; sourceTree = "<group>"; };
+		21365F491B78F3EA001043CE /* AndysAmmunitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndysAmmunitionViewController.swift; sourceTree = "<group>"; };
+		21365F4B1B78F4A9001043CE /* FaithsFuelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaithsFuelViewController.swift; sourceTree = "<group>"; };
+		21365F4D1B78F4BF001043CE /* SarahsSuppliesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SarahsSuppliesViewController.swift; sourceTree = "<group>"; };
+		21365F4F1B790454001043CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21A7D1CF1B77F95B00B160C5 /* OregonBound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OregonBound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A7D1D21B77F95B00B160C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21A7D1D71B77F95B00B160C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21A7D1DC1B77F95B00B160C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21A7D1DE1B77F95B00B160C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A7D1E31B77F95B00B160C5 /* OregonBoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OregonBoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A7D1E71B77F95B00B160C5 /* OregonBoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OregonBoundTests.swift; sourceTree = "<group>"; };
+		21A7D1E91B77F95B00B160C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A7D1EE1B77F95B00B160C5 /* OregonBoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OregonBoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A7D1F21B77F95B00B160C5 /* OregonBoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OregonBoundUITests.swift; sourceTree = "<group>"; };
+		21A7D1F41B77F95B00B160C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A7D2001B77F99600B160C5 /* FirstTownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTownViewController.swift; sourceTree = "<group>"; };
+		21A7D2021B77F9AA00B160C5 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		21A7D2041B77FA6400B160C5 /* SetUpTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetUpTeamViewController.swift; path = OregonBound/SetUpTeamViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A7D1CC1B77F95B00B160C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A7D1E01B77F95B00B160C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A7D1EB1B77F95B00B160C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A7D1C61B77F95B00B160C5 = {
+			isa = PBXGroup;
+			children = (
+				21A7D2001B77F99600B160C5 /* FirstTownViewController.swift */,
+				21A7D2021B77F9AA00B160C5 /* StartScreenViewController.swift */,
+				21A7D2041B77FA6400B160C5 /* SetUpTeamViewController.swift */,
+				21A7D1D11B77F95B00B160C5 /* OregonBound */,
+				21A7D1E61B77F95B00B160C5 /* OregonBoundTests */,
+				21A7D1F11B77F95B00B160C5 /* OregonBoundUITests */,
+				21A7D1D01B77F95B00B160C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21A7D1D01B77F95B00B160C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A7D1CF1B77F95B00B160C5 /* OregonBound.app */,
+				21A7D1E31B77F95B00B160C5 /* OregonBoundTests.xctest */,
+				21A7D1EE1B77F95B00B160C5 /* OregonBoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21A7D1D11B77F95B00B160C5 /* OregonBound */ = {
+			isa = PBXGroup;
+			children = (
+				21A7D1D21B77F95B00B160C5 /* AppDelegate.swift */,
+				21A7D1D61B77F95B00B160C5 /* Main.storyboard */,
+				21365F491B78F3EA001043CE /* AndysAmmunitionViewController.swift */,
+				21365F4B1B78F4A9001043CE /* FaithsFuelViewController.swift */,
+				21365F4D1B78F4BF001043CE /* SarahsSuppliesViewController.swift */,
+				21365F471B78F3D4001043CE /* TerrysToolsViewController.swift */,
+				21365F4F1B790454001043CE /* Assets.xcassets */,
+				21A7D1DB1B77F95B00B160C5 /* LaunchScreen.storyboard */,
+				21A7D1DE1B77F95B00B160C5 /* Info.plist */,
+			);
+			path = OregonBound;
+			sourceTree = "<group>";
+		};
+		21A7D1E61B77F95B00B160C5 /* OregonBoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				21A7D1E71B77F95B00B160C5 /* OregonBoundTests.swift */,
+				21A7D1E91B77F95B00B160C5 /* Info.plist */,
+			);
+			path = OregonBoundTests;
+			sourceTree = "<group>";
+		};
+		21A7D1F11B77F95B00B160C5 /* OregonBoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21A7D1F21B77F95B00B160C5 /* OregonBoundUITests.swift */,
+				21A7D1F41B77F95B00B160C5 /* Info.plist */,
+			);
+			path = OregonBoundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21A7D1CE1B77F95B00B160C5 /* OregonBound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A7D1F71B77F95B00B160C5 /* Build configuration list for PBXNativeTarget "OregonBound" */;
+			buildPhases = (
+				21A7D1CB1B77F95B00B160C5 /* Sources */,
+				21A7D1CC1B77F95B00B160C5 /* Frameworks */,
+				21A7D1CD1B77F95B00B160C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OregonBound;
+			productName = OregonBound;
+			productReference = 21A7D1CF1B77F95B00B160C5 /* OregonBound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21A7D1E21B77F95B00B160C5 /* OregonBoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A7D1FA1B77F95B00B160C5 /* Build configuration list for PBXNativeTarget "OregonBoundTests" */;
+			buildPhases = (
+				21A7D1DF1B77F95B00B160C5 /* Sources */,
+				21A7D1E01B77F95B00B160C5 /* Frameworks */,
+				21A7D1E11B77F95B00B160C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A7D1E51B77F95B00B160C5 /* PBXTargetDependency */,
+			);
+			name = OregonBoundTests;
+			productName = OregonBoundTests;
+			productReference = 21A7D1E31B77F95B00B160C5 /* OregonBoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21A7D1ED1B77F95B00B160C5 /* OregonBoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A7D1FD1B77F95B00B160C5 /* Build configuration list for PBXNativeTarget "OregonBoundUITests" */;
+			buildPhases = (
+				21A7D1EA1B77F95B00B160C5 /* Sources */,
+				21A7D1EB1B77F95B00B160C5 /* Frameworks */,
+				21A7D1EC1B77F95B00B160C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A7D1F01B77F95B00B160C5 /* PBXTargetDependency */,
+			);
+			name = OregonBoundUITests;
+			productName = OregonBoundUITests;
+			productReference = 21A7D1EE1B77F95B00B160C5 /* OregonBoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21A7D1C71B77F95B00B160C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yasoob Rasheed";
+				TargetAttributes = {
+					21A7D1CE1B77F95B00B160C5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					21A7D1E21B77F95B00B160C5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 21A7D1CE1B77F95B00B160C5;
+					};
+					21A7D1ED1B77F95B00B160C5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 21A7D1CE1B77F95B00B160C5;
+					};
+				};
+			};
+			buildConfigurationList = 21A7D1CA1B77F95B00B160C5 /* Build configuration list for PBXProject "OregonBound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21A7D1C61B77F95B00B160C5;
+			productRefGroup = 21A7D1D01B77F95B00B160C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21A7D1CE1B77F95B00B160C5 /* OregonBound */,
+				21A7D1E21B77F95B00B160C5 /* OregonBoundTests */,
+				21A7D1ED1B77F95B00B160C5 /* OregonBoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A7D1CD1B77F95B00B160C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A7D1DD1B77F95B00B160C5 /* LaunchScreen.storyboard in Resources */,
+				21365F501B790454001043CE /* Assets.xcassets in Resources */,
+				21A7D1D81B77F95B00B160C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A7D1E11B77F95B00B160C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A7D1EC1B77F95B00B160C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A7D1CB1B77F95B00B160C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A7D2031B77F9AA00B160C5 /* StartScreenViewController.swift in Sources */,
+				21365F4C1B78F4A9001043CE /* FaithsFuelViewController.swift in Sources */,
+				21365F4A1B78F3EA001043CE /* AndysAmmunitionViewController.swift in Sources */,
+				21365F481B78F3D4001043CE /* TerrysToolsViewController.swift in Sources */,
+				21A7D1D31B77F95B00B160C5 /* AppDelegate.swift in Sources */,
+				21A7D2011B77F99600B160C5 /* FirstTownViewController.swift in Sources */,
+				21A7D2051B77FA6400B160C5 /* SetUpTeamViewController.swift in Sources */,
+				21365F4E1B78F4BF001043CE /* SarahsSuppliesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A7D1DF1B77F95B00B160C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A7D1E81B77F95B00B160C5 /* OregonBoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A7D1EA1B77F95B00B160C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A7D1F31B77F95B00B160C5 /* OregonBoundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A7D1E51B77F95B00B160C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A7D1CE1B77F95B00B160C5 /* OregonBound */;
+			targetProxy = 21A7D1E41B77F95B00B160C5 /* PBXContainerItemProxy */;
+		};
+		21A7D1F01B77F95B00B160C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A7D1CE1B77F95B00B160C5 /* OregonBound */;
+			targetProxy = 21A7D1EF1B77F95B00B160C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21A7D1D61B77F95B00B160C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A7D1D71B77F95B00B160C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21A7D1DB1B77F95B00B160C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A7D1DC1B77F95B00B160C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21A7D1F51B77F95B00B160C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21A7D1F61B77F95B00B160C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21A7D1F81B77F95B00B160C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OregonBound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasheed.OregonBound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21A7D1F91B77F95B00B160C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OregonBound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasheed.OregonBound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21A7D1FB1B77F95B00B160C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OregonBoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasheed.OregonBoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OregonBound.app/OregonBound";
+			};
+			name = Debug;
+		};
+		21A7D1FC1B77F95B00B160C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OregonBoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasheed.OregonBoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OregonBound.app/OregonBound";
+			};
+			name = Release;
+		};
+		21A7D1FE1B77F95B00B160C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OregonBoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasheed.OregonBoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OregonBound;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		21A7D1FF1B77F95B00B160C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OregonBoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rasheed.OregonBoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OregonBound;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A7D1CA1B77F95B00B160C5 /* Build configuration list for PBXProject "OregonBound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A7D1F51B77F95B00B160C5 /* Debug */,
+				21A7D1F61B77F95B00B160C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A7D1F71B77F95B00B160C5 /* Build configuration list for PBXNativeTarget "OregonBound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A7D1F81B77F95B00B160C5 /* Debug */,
+				21A7D1F91B77F95B00B160C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A7D1FA1B77F95B00B160C5 /* Build configuration list for PBXNativeTarget "OregonBoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A7D1FB1B77F95B00B160C5 /* Debug */,
+				21A7D1FC1B77F95B00B160C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A7D1FD1B77F95B00B160C5 /* Build configuration list for PBXNativeTarget "OregonBoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A7D1FE1B77F95B00B160C5 /* Debug */,
+				21A7D1FF1B77F95B00B160C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21A7D1C71B77F95B00B160C5 /* Project object */;
+}
